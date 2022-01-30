@@ -1,0 +1,25 @@
+$font: 2.4rem;
+
+%center
+{
+   text-align: center;
+}
+%same
+{
+    font-size: $font - 1;
+    display: inline-block;
+    background-color: beige;
+    padding: 40px 0px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 40%;
+    height: 100px;
+   
+    &:hover
+    {
+        cursor: pointer;
+        background-color: rgb(68, 47, 47);
+        color: whitesmoke;
+        transform: scale(1.1);
+    }
+}
